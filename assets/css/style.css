@@ -52,8 +52,11 @@ html {
   object-fit: cover;
 }
 
-.why-choose-us-box:hover {
+.why-choose-us-box{
   transition: 0.2s ease-in-out;
+  scale: 1;
+}
+.why-choose-us-box:hover {
   scale: 1.05;
   transform: translate(0, -10px);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
