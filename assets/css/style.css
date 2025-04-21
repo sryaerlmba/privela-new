@@ -1,0 +1,113 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#layanan-kami{
+    scroll-margin-top: 142px;
+}
+
+/* gambar client slider homrpagr */
+.client-img {
+    height: 100px;
+    object-fit: contain;
+    width: auto;
+    margin: 0 auto;
+  }
+  
+  /* mengattur height gambar testimonial */
+  .testimonial-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .testimonial-img img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  #misi  li {
+    text-align: start;
+  }
+  
+  /* custom button di layana */
+  .custom-button i {
+    color: #f56960;
+  }
+  
+  .custom-button i:hover, .custom-button:hover{
+    color: #079abe;
+    transition: 0.2s;
+}
+
+  .custom-button {
+    color: black;
+  }
+
+  /* mengatur tinggi fix gambar package secction */
+.package-section img {
+  height: 227px;
+  object-fit: cover;
+}
+
+.why-choose-us-box:hover {
+  transition: 0.2s ease-in-out;
+  scale: 1.05;
+  transform: translate(0, -10px);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+/* custom button whatsapp section contact-page */
+.whatsapp-button{
+  color: white;
+  background-color: #4ec75a;
+  display: flex;
+  height: 47px;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.whatsapp-button:hover{
+  color: white;
+  background-color: #2c75ba;
+  transition: 0.3s ease-in-out;
+}
+
+/* same height  */
+.activity-inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.activity-inner > div {
+  display: flex;
+}
+
+.activity-item {
+  background: #fff; 
+  border: 1px solid #eee;
+  padding: 20px;
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Bisa jadi center jika ingin konten di tengah */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
